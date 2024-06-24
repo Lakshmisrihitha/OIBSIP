@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: url('header-bg.jpeg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.features, .benefits, .servers {
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+.features .feature, .benefits .benefit {
+    margin-bottom: 40px;
+}
+
+.features img, .benefits img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.features h2, .benefits h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features p, .benefits p {
+    font-size: 16px;
+    color: #555;
+}
+
+.servers {
+    background-color: #f9f9f9;
+}
+
+.server-stats p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
