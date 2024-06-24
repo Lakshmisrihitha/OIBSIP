@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        
+        <h2>Hello! I am a BTech student passionate about web development. I have experience in HTML, CSS, and JavaScript.
+            <h2>I am currently pursuing my B.Tech in Computer Science with a specialization in Web Development. My journey into web development began with a curiosity about how websites are built, which quickly turned into a passion for creating beautiful and functional web experiences.</h2>
+            <h2>Outside of coding, I am an avid reader, a nature enthusiast, and a photography hobbyist. I believe in continuous learning and am always seeking new opportunities to grow both personally and professionally.</h2>
+        </div>
+    </div>
+        </p>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        
+        <div class="flip-card-container">
+            <div class="flip-card">
+                <div class="flip-card-inner" data-skill="html">
+                    <div class="flip-card-front">
+                        <h2>HTML</h2>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the structure of a website, allowing you to include elements such as text, images, links, and more.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner" data-skill="css">
+                    <div class="flip-card-front">
+                        <h2>CSS</h2>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in HTML. It controls the layout, colors, fonts, and overall appearance of a website.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner" data-skill="js">
+                    <div class="flip-card-front">
+                        <h2>JavaScript</h2>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>JavaScript is a programming language that allows you to implement complex features on web pages. It can be used to create dynamically updating content, control multimedia, animate images, and much more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        
+        <div class="project">
+            
+            <h3>Personal Portfolio Website</h3>
+            <h4>This is a personal portfolio website built using HTML, CSS, and JavaScript. The website showcases my skills, projects, and contact information. It features a responsive design that adapts to different screen sizes.</h4>
+        </div>
+        <div class="project">
+            
+            <h3>Weather App</h3>
+            <h4>A web application that provides weather information for different locations. Built using HTML, CSS, and JavaScript, the app fetches data from a weather API and displays the current weather, temperature, and other relevant details.</h4>
+        </div>
+        <div class="project">
+            
+            <h3>Temperature Converter</h3>
+            <h4>This is a simple web application that converts temperatures between Celsius, Fahrenheit, and Kelvin. Developed using HTML, CSS, and JavaScript, it allows users to input a temperature in one unit and view the converted temperature in the other units.</h4>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
